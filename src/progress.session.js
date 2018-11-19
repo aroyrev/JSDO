@@ -797,7 +797,8 @@ limitations under the License.
             // connects to online the last time it was checked?
             // (value is always false if session is not logged in)
             oepingAvailable = false,
-            defaultPartialPingURI = "/rest/_oeping",
+            // defaultPartialPingURI = "/rest/_oeping",
+            defaultPartialPingURI = "/rest/_oepingService/_oeping",
             partialPingURI = defaultPartialPingURI,
             _storageKey,
             _authProvider = null,
